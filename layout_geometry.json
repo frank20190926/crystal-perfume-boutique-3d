@@ -1,0 +1,2058 @@
+{
+  "schema_version": "1.0",
+  "contest_id": 2801401,
+  "units": "mm",
+  "origin": "South-west; X east, Y north, Z up",
+  "source_plan": "brief/IMG_4951.PNG",
+  "coordinate_authority": "User-supplied coordinates, 2026-11-10; raster dimensions independently inspected",
+  "boundary_mm": [
+    [
+      0,
+      0
+    ],
+    [
+      6450,
+      0
+    ],
+    [
+      6450,
+      4999
+    ],
+    [
+      8800,
+      4999
+    ],
+    [
+      8800,
+      14200
+    ],
+    [
+      0,
+      14200
+    ]
+  ],
+  "height_assumptions_mm": {
+    "enclosure": 2800,
+    "display": 2400,
+    "new_partitions": 2400,
+    "north_window_sill": 650,
+    "west_window_sill": 450,
+    "window_head": 2700
+  },
+  "finishes": [
+    {
+      "code": "BM-OC-17",
+      "name": "Benjamin Moore OC-17 White Dove",
+      "hex": "#F3EFE6",
+      "finish": "Matte painted walls and shelving"
+    },
+    {
+      "code": "BM-OC-85",
+      "name": "Benjamin Moore OC-85 Pale Oak",
+      "hex": "#E6DEC8",
+      "finish": "Matte painted console and selected joinery"
+    },
+    {
+      "code": "BM-OC-23",
+      "name": "Benjamin Moore OC-23 Classic Gray",
+      "hex": "#E4E0D8",
+      "finish": "Matte painted office and store partitions"
+    },
+    {
+      "code": "MET-01",
+      "name": "Satin Champagne Bronze",
+      "hex": "#C5B08B",
+      "finish": "Satin metal vitrine frames and hardware"
+    }
+  ],
+  "walls": [
+    {
+      "id": "EXT-S",
+      "bounds_mm": [
+        0,
+        -150,
+        6600,
+        0
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "EXT-SE",
+      "bounds_mm": [
+        6450,
+        0,
+        6600,
+        4999
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "EXT-E",
+      "bounds_mm": [
+        8800,
+        4849,
+        8950,
+        14350
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "EXT-N1",
+      "bounds_mm": [
+        -150,
+        14200,
+        1850,
+        14350
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "EXT-N2",
+      "bounds_mm": [
+        7350,
+        14200,
+        8800,
+        14350
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "EXT-W1",
+      "bounds_mm": [
+        -150,
+        0,
+        0,
+        900
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "EXT-W2",
+      "bounds_mm": [
+        -150,
+        5500,
+        0,
+        14200
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "EXT-ENTRY1",
+      "bounds_mm": [
+        6450,
+        4849,
+        6850,
+        4999
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "EXT-ENTRY2",
+      "bounds_mm": [
+        7950,
+        4849,
+        8800,
+        4999
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "WN-SILL",
+      "bounds_mm": [
+        1850,
+        14200,
+        7350,
+        14350
+      ],
+      "z_mm": [
+        0,
+        650
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "WN-HEAD",
+      "bounds_mm": [
+        1850,
+        14200,
+        7350,
+        14350
+      ],
+      "z_mm": [
+        2700,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "WW-SILL",
+      "bounds_mm": [
+        -150,
+        900,
+        0,
+        5500
+      ],
+      "z_mm": [
+        0,
+        450
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "WW-HEAD",
+      "bounds_mm": [
+        -150,
+        900,
+        0,
+        5500
+      ],
+      "z_mm": [
+        2700,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "CORE-E-5500",
+      "bounds_mm": [
+        1599,
+        5500,
+        1699,
+        13000
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "CORE-E-13800",
+      "bounds_mm": [
+        1599,
+        13800,
+        1699,
+        14200
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "CORE-H-5500-0",
+      "bounds_mm": [
+        0,
+        5500,
+        450,
+        5600
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "CORE-H-5500-1250",
+      "bounds_mm": [
+        1250,
+        5500,
+        1599,
+        5600
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "CORE-H-7450-0",
+      "bounds_mm": [
+        0,
+        7450,
+        450,
+        7550
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "CORE-H-7450-1250",
+      "bounds_mm": [
+        1250,
+        7450,
+        1599,
+        7550
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "CORE-H-12100-0",
+      "bounds_mm": [
+        0,
+        12100,
+        450,
+        12200
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "CORE-H-12100-1250",
+      "bounds_mm": [
+        1250,
+        12100,
+        1599,
+        12200
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "CORE-H-9350",
+      "bounds_mm": [
+        0,
+        9350,
+        1599,
+        9450
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "CORE-H-10100",
+      "bounds_mm": [
+        0,
+        10100,
+        1599,
+        10200
+      ],
+      "z_mm": [
+        0,
+        2800
+      ],
+      "status": "existing"
+    },
+    {
+      "id": "STORE-N1",
+      "bounds_mm": [
+        0,
+        2100,
+        2750,
+        2200
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "status": "new"
+    },
+    {
+      "id": "STORE-N2",
+      "bounds_mm": [
+        3650,
+        2100,
+        3800,
+        2200
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "status": "new"
+    },
+    {
+      "id": "OFFICE-W",
+      "bounds_mm": [
+        3700,
+        0,
+        3800,
+        2500
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "status": "new"
+    }
+  ],
+  "columns": [
+    {
+      "id": "COL-1",
+      "bounds_mm": [
+        1699,
+        4050,
+        2150,
+        4750
+      ],
+      "z_mm": [
+        0,
+        2800
+      ]
+    },
+    {
+      "id": "COL-2",
+      "bounds_mm": [
+        8350,
+        4999,
+        8800,
+        5700
+      ],
+      "z_mm": [
+        0,
+        2800
+      ]
+    },
+    {
+      "id": "COL-3",
+      "bounds_mm": [
+        8350,
+        10950,
+        8800,
+        11650
+      ],
+      "z_mm": [
+        0,
+        2800
+      ]
+    },
+    {
+      "id": "COL-4",
+      "bounds_mm": [
+        1400,
+        10600,
+        1750,
+        11400
+      ],
+      "z_mm": [
+        0,
+        2800
+      ]
+    }
+  ],
+  "glazing": [
+    {
+      "id": "WN",
+      "bounds_mm": [
+        1850,
+        14200,
+        7350,
+        14350
+      ],
+      "z_mm": [
+        650,
+        2700
+      ],
+      "mullion_spacing_max_mm": 1100
+    },
+    {
+      "id": "WW",
+      "bounds_mm": [
+        -150,
+        900,
+        0,
+        5500
+      ],
+      "z_mm": [
+        450,
+        2700
+      ],
+      "mullion_spacing_max_mm": 1100
+    },
+    {
+      "id": "OFFICE-G1",
+      "bounds_mm": [
+        3800,
+        2450,
+        4000,
+        2500
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "mullion_spacing_max_mm": 900,
+      "material": "acoustic reeded glass"
+    },
+    {
+      "id": "OFFICE-G2",
+      "bounds_mm": [
+        4900,
+        2450,
+        6450,
+        2500
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "mullion_spacing_max_mm": 900,
+      "material": "acoustic reeded glass"
+    }
+  ],
+  "doors": [
+    {
+      "id": "D-01",
+      "hinge_mm": [
+        7950,
+        4999
+      ],
+      "width_mm": 1100,
+      "arc_deg": [
+        90,
+        180
+      ],
+      "leaf_open_deg": 90,
+      "wall_id": "ENTRANCE",
+      "type": "inward northwest quadrant glass entrance",
+      "height_mm": 2400
+    },
+    {
+      "id": "D-02",
+      "hinge_mm": [
+        4000,
+        2500
+      ],
+      "width_mm": 900,
+      "arc_deg": [
+        270,
+        360
+      ],
+      "leaf_open_deg": 270,
+      "wall_id": "OFFICE",
+      "type": "acoustic glass",
+      "height_mm": 2400
+    },
+    {
+      "id": "D-03",
+      "hinge_mm": [
+        3650,
+        2100
+      ],
+      "width_mm": 900,
+      "arc_deg": [
+        180,
+        270
+      ],
+      "leaf_open_deg": 270,
+      "wall_id": "STORE",
+      "type": "hidden frameless jib",
+      "height_mm": 2400
+    },
+    {
+      "id": "D-04",
+      "hinge_mm": [
+        1250,
+        5500
+      ],
+      "width_mm": 800,
+      "arc_deg": [
+        90,
+        180
+      ],
+      "leaf_open_deg": 90,
+      "wall_id": "PANTRY-S",
+      "type": "flush hinged",
+      "height_mm": 2400
+    },
+    {
+      "id": "D-05",
+      "hinge_mm": [
+        450,
+        7450
+      ],
+      "width_mm": 800,
+      "arc_deg": [
+        0,
+        90
+      ],
+      "leaf_open_deg": 90,
+      "wall_id": "WC-S",
+      "type": "flush hinged",
+      "height_mm": 2400
+    },
+    {
+      "id": "D-06",
+      "hinge_mm": [
+        1250,
+        12100
+      ],
+      "width_mm": 800,
+      "arc_deg": [
+        180,
+        270
+      ],
+      "leaf_open_deg": 270,
+      "wall_id": "WC-N",
+      "type": "flush hinged",
+      "height_mm": 2400
+    },
+    {
+      "id": "D-07",
+      "hinge_mm": [
+        1699,
+        13800
+      ],
+      "width_mm": 800,
+      "arc_deg": [
+        180,
+        270
+      ],
+      "leaf_open_deg": 180,
+      "wall_id": "PANTRY-N",
+      "type": "flush hinged",
+      "height_mm": 2400
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "R-01",
+      "kind": "reception",
+      "bounds_mm": [
+        5400,
+        6100,
+        7600,
+        6850
+      ],
+      "z_mm": [
+        0,
+        1050
+      ],
+      "zone": "01",
+      "finish": "BM-OC-85"
+    },
+    {
+      "id": "I-01",
+      "kind": "discovery",
+      "bounds_mm": [
+        3800,
+        8200,
+        6200,
+        9300
+      ],
+      "z_mm": [
+        0,
+        950
+      ],
+      "zone": "01",
+      "finish": "BM-OC-85",
+      "description": "Perfume oil and crystal flacon tester island"
+    },
+    {
+      "id": "T-01",
+      "kind": "stool",
+      "bounds_mm": [
+        3975,
+        7575,
+        4425,
+        8025
+      ],
+      "z_mm": [
+        0,
+        480
+      ],
+      "zone": "01",
+      "finish": "BM-OC-17",
+      "upholstery": "ivory boucle"
+    },
+    {
+      "id": "T-02",
+      "kind": "stool",
+      "bounds_mm": [
+        5475,
+        7575,
+        5925,
+        8025
+      ],
+      "z_mm": [
+        0,
+        480
+      ],
+      "zone": "01",
+      "finish": "BM-OC-17",
+      "upholstery": "ivory boucle"
+    },
+    {
+      "id": "T-03",
+      "kind": "stool",
+      "bounds_mm": [
+        3975,
+        9475,
+        4425,
+        9925
+      ],
+      "z_mm": [
+        0,
+        480
+      ],
+      "zone": "01",
+      "finish": "BM-OC-17",
+      "upholstery": "ivory boucle"
+    },
+    {
+      "id": "T-04",
+      "kind": "stool",
+      "bounds_mm": [
+        5475,
+        9475,
+        5925,
+        9925
+      ],
+      "z_mm": [
+        0,
+        480
+      ],
+      "zone": "01",
+      "finish": "BM-OC-17",
+      "upholstery": "ivory boucle"
+    },
+    {
+      "id": "V-01",
+      "kind": "vitrine",
+      "bounds_mm": [
+        8300,
+        5850,
+        8800,
+        7000
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "zone": "02",
+      "finish": "MET-01",
+      "nominal_width_mm": 1150,
+      "depth_mm": 500,
+      "security": {
+        "low_iron_glass": true,
+        "lockable": true,
+        "anchorage": "Concealed base/wall restraint; engineer to detail"
+      },
+      "lighting": {
+        "cct_K": 3000,
+        "CRI_min": 95,
+        "concealed_LED": true,
+        "dimmable": true
+      },
+      "position_status": "exact length fits supplied run"
+    },
+    {
+      "id": "V-02",
+      "kind": "vitrine",
+      "bounds_mm": [
+        8300,
+        7116,
+        8800,
+        8266
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "zone": "02",
+      "finish": "MET-01",
+      "nominal_width_mm": 1150,
+      "depth_mm": 500,
+      "security": {
+        "low_iron_glass": true,
+        "lockable": true,
+        "anchorage": "Concealed base/wall restraint; engineer to detail"
+      },
+      "lighting": {
+        "cct_K": 3000,
+        "CRI_min": 95,
+        "concealed_LED": true,
+        "dimmable": true
+      },
+      "position_status": "exact length fits supplied run"
+    },
+    {
+      "id": "V-03",
+      "kind": "vitrine",
+      "bounds_mm": [
+        8300,
+        8383,
+        8800,
+        9533
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "zone": "02",
+      "finish": "MET-01",
+      "nominal_width_mm": 1150,
+      "depth_mm": 500,
+      "security": {
+        "low_iron_glass": true,
+        "lockable": true,
+        "anchorage": "Concealed base/wall restraint; engineer to detail"
+      },
+      "lighting": {
+        "cct_K": 3000,
+        "CRI_min": 95,
+        "concealed_LED": true,
+        "dimmable": true
+      },
+      "position_status": "exact length fits supplied run"
+    },
+    {
+      "id": "V-04",
+      "kind": "vitrine",
+      "bounds_mm": [
+        8300,
+        9650,
+        8800,
+        10800
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "zone": "02",
+      "finish": "MET-01",
+      "nominal_width_mm": 1150,
+      "depth_mm": 500,
+      "security": {
+        "low_iron_glass": true,
+        "lockable": true,
+        "anchorage": "Concealed base/wall restraint; engineer to detail"
+      },
+      "lighting": {
+        "cct_K": 3000,
+        "CRI_min": 95,
+        "concealed_LED": true,
+        "dimmable": true
+      },
+      "position_status": "exact length fits supplied run"
+    },
+    {
+      "id": "V-05",
+      "kind": "vitrine",
+      "bounds_mm": [
+        8300,
+        11750,
+        8800,
+        12850
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "zone": "02",
+      "finish": "MET-01",
+      "nominal_width_mm": 1150,
+      "depth_mm": 500,
+      "security": {
+        "low_iron_glass": true,
+        "lockable": true,
+        "anchorage": "Concealed base/wall restraint; engineer to detail"
+      },
+      "lighting": {
+        "cct_K": 3000,
+        "CRI_min": 95,
+        "concealed_LED": true,
+        "dimmable": true
+      },
+      "position_status": "1100 mm fit option; nominal 1150 conflicts with 2200 mm run"
+    },
+    {
+      "id": "V-06",
+      "kind": "vitrine",
+      "bounds_mm": [
+        8300,
+        12850,
+        8800,
+        13950
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "zone": "02",
+      "finish": "MET-01",
+      "nominal_width_mm": 1150,
+      "depth_mm": 500,
+      "security": {
+        "low_iron_glass": true,
+        "lockable": true,
+        "anchorage": "Concealed base/wall restraint; engineer to detail"
+      },
+      "lighting": {
+        "cct_K": 3000,
+        "CRI_min": 95,
+        "concealed_LED": true,
+        "dimmable": true
+      },
+      "position_status": "1100 mm fit option; nominal 1150 conflicts with 2200 mm run"
+    },
+    {
+      "id": "P-01",
+      "kind": "pedestal",
+      "bounds_mm": [
+        3075,
+        11875,
+        3725,
+        12525
+      ],
+      "z_mm": [
+        0,
+        1400
+      ],
+      "zone": "02",
+      "finish": "MET-01",
+      "anchor_interpretation": "User X/Y interpreted as centre",
+      "glass_top_height_mm": 500
+    },
+    {
+      "id": "P-02",
+      "kind": "pedestal",
+      "bounds_mm": [
+        4675,
+        11875,
+        5325,
+        12525
+      ],
+      "z_mm": [
+        0,
+        1400
+      ],
+      "zone": "02",
+      "finish": "MET-01",
+      "anchor_interpretation": "User X/Y interpreted as centre",
+      "glass_top_height_mm": 500
+    },
+    {
+      "id": "P-03",
+      "kind": "pedestal",
+      "bounds_mm": [
+        6275,
+        11875,
+        6925,
+        12525
+      ],
+      "z_mm": [
+        0,
+        1400
+      ],
+      "zone": "02",
+      "finish": "MET-01",
+      "anchor_interpretation": "User X/Y interpreted as centre",
+      "glass_top_height_mm": 500
+    },
+    {
+      "id": "O-01",
+      "kind": "open_shelf",
+      "bounds_mm": [
+        1760,
+        5900,
+        2180,
+        7200
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "zone": "02",
+      "finish": "BM-OC-17",
+      "description": "Open tactile shelves; matte paint; gift boxes and standard perfumes"
+    },
+    {
+      "id": "O-02",
+      "kind": "open_shelf",
+      "bounds_mm": [
+        1760,
+        7600,
+        2180,
+        8900
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "zone": "02",
+      "finish": "BM-OC-17",
+      "description": "Open tactile shelves; matte paint; gift boxes and standard perfumes"
+    },
+    {
+      "id": "O-03",
+      "kind": "open_shelf",
+      "bounds_mm": [
+        1760,
+        9150,
+        2180,
+        10450
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "zone": "02",
+      "finish": "BM-OC-17",
+      "description": "Open tactile shelves; matte paint; gift boxes and standard perfumes"
+    },
+    {
+      "id": "O-04",
+      "kind": "open_shelf",
+      "bounds_mm": [
+        1760,
+        11550,
+        2180,
+        12850
+      ],
+      "z_mm": [
+        0,
+        2400
+      ],
+      "zone": "02",
+      "finish": "BM-OC-17",
+      "description": "Open tactile shelves; matte paint; gift boxes and standard perfumes"
+    },
+    {
+      "id": "VIP-RUG",
+      "kind": "rug",
+      "bounds_mm": [
+        300,
+        2200,
+        3650,
+        5050
+      ],
+      "z_mm": [
+        0,
+        12
+      ],
+      "zone": "03",
+      "finish": "BM-OC-17",
+      "material": "woven silk wool"
+    },
+    {
+      "id": "VIP-SOFA",
+      "kind": "sofa",
+      "bounds_mm": [
+        850,
+        2250,
+        3250,
+        3050
+      ],
+      "z_mm": [
+        0,
+        850
+      ],
+      "zone": "03",
+      "finish": "BM-OC-17",
+      "upholstery": "ivory boucle",
+      "seats": 4
+    },
+    {
+      "id": "VIP-A1",
+      "kind": "armchair",
+      "bounds_mm": [
+        850,
+        4100,
+        1550,
+        4800
+      ],
+      "z_mm": [
+        0,
+        780
+      ],
+      "zone": "03",
+      "finish": "BM-OC-17",
+      "upholstery": "sand velvet"
+    },
+    {
+      "id": "VIP-A2",
+      "kind": "armchair",
+      "bounds_mm": [
+        2350,
+        4100,
+        3050,
+        4800
+      ],
+      "z_mm": [
+        0,
+        780
+      ],
+      "zone": "03",
+      "finish": "BM-OC-17",
+      "upholstery": "sand velvet"
+    },
+    {
+      "id": "VIP-T",
+      "kind": "coffee_table",
+      "bounds_mm": [
+        1350,
+        3200,
+        2750,
+        3900
+      ],
+      "z_mm": [
+        0,
+        390
+      ],
+      "zone": "03",
+      "finish": "BM-OC-85"
+    },
+    {
+      "id": "VIP-C",
+      "kind": "credenza",
+      "bounds_mm": [
+        250,
+        2300,
+        700,
+        4000
+      ],
+      "z_mm": [
+        0,
+        800
+      ],
+      "zone": "03",
+      "finish": "BM-OC-85"
+    },
+    {
+      "id": "OF-D",
+      "kind": "desk",
+      "bounds_mm": [
+        4450,
+        1150,
+        6050,
+        1800
+      ],
+      "z_mm": [
+        0,
+        750
+      ],
+      "zone": "04",
+      "finish": "BM-OC-85"
+    },
+    {
+      "id": "OF-C",
+      "kind": "credenza",
+      "bounds_mm": [
+        4200,
+        100,
+        6250,
+        500
+      ],
+      "z_mm": [
+        0,
+        800
+      ],
+      "zone": "04",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "OF-E",
+      "kind": "task_chair",
+      "bounds_mm": [
+        4950,
+        1850,
+        5550,
+        2350
+      ],
+      "z_mm": [
+        0,
+        1000
+      ],
+      "zone": "04",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "OF-V1",
+      "kind": "chair",
+      "bounds_mm": [
+        4600,
+        620,
+        5050,
+        1020
+      ],
+      "z_mm": [
+        0,
+        780
+      ],
+      "zone": "04",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "OF-V2",
+      "kind": "chair",
+      "bounds_mm": [
+        5450,
+        620,
+        5900,
+        1020
+      ],
+      "z_mm": [
+        0,
+        780
+      ],
+      "zone": "04",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "S-01",
+      "kind": "rack",
+      "bounds_mm": [
+        100,
+        100,
+        3600,
+        550
+      ],
+      "z_mm": [
+        0,
+        2200
+      ],
+      "zone": "05",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "S-02",
+      "kind": "rack",
+      "bounds_mm": [
+        100,
+        550,
+        550,
+        1600
+      ],
+      "z_mm": [
+        0,
+        2200
+      ],
+      "zone": "05",
+      "finish": "BM-OC-17",
+      "description": "450 mm deep west stock rack; corner ends abut S-01 / S-03"
+    },
+    {
+      "id": "S-03",
+      "kind": "rack",
+      "bounds_mm": [
+        100,
+        1600,
+        2700,
+        2050
+      ],
+      "z_mm": [
+        0,
+        2200
+      ],
+      "zone": "05",
+      "finish": "BM-OC-17",
+      "description": "North stock rack stops before hidden door"
+    },
+    {
+      "id": "PKG-01",
+      "kind": "packing_table",
+      "bounds_mm": [
+        1150,
+        900,
+        2250,
+        1300
+      ],
+      "z_mm": [
+        0,
+        900
+      ],
+      "zone": "05",
+      "finish": "BM-OC-85"
+    },
+    {
+      "id": "PN-SINK",
+      "kind": "sink",
+      "bounds_mm": [
+        100,
+        13450,
+        650,
+        14050
+      ],
+      "z_mm": [
+        0,
+        900
+      ],
+      "zone": "service",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "PS-SINK",
+      "kind": "sink",
+      "bounds_mm": [
+        100,
+        6300,
+        650,
+        6900
+      ],
+      "z_mm": [
+        0,
+        900
+      ],
+      "zone": "service",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "WN-WC",
+      "kind": "toilet",
+      "bounds_mm": [
+        350,
+        10500,
+        1050,
+        11150
+      ],
+      "z_mm": [
+        0,
+        450
+      ],
+      "zone": "service",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "WS-WC",
+      "kind": "toilet",
+      "bounds_mm": [
+        350,
+        8500,
+        1050,
+        9150
+      ],
+      "z_mm": [
+        0,
+        450
+      ],
+      "zone": "service",
+      "finish": "BM-OC-17"
+    }
+  ],
+  "lighting": [
+    {
+      "id": "LT-E",
+      "start_mm": [
+        7550,
+        5800
+      ],
+      "end_mm": [
+        7550,
+        13600
+      ],
+      "z_mm": 2650,
+      "cct_K": 3000,
+      "beam_deg": 24,
+      "aim": "display faces",
+      "track": "ceiling mounted; omitted from cutaway for visibility"
+    },
+    {
+      "id": "LT-W",
+      "start_mm": [
+        2850,
+        6100
+      ],
+      "end_mm": [
+        2850,
+        13600
+      ],
+      "z_mm": 2650,
+      "cct_K": 3000,
+      "beam_deg": 24,
+      "aim": "display faces",
+      "track": "ceiling mounted; omitted from cutaway for visibility"
+    },
+    {
+      "id": "LT-VIP",
+      "start_mm": [
+        1000,
+        3750
+      ],
+      "end_mm": [
+        3300,
+        3750
+      ],
+      "z_mm": 2650,
+      "cct_K": 3000,
+      "beam_deg": 24,
+      "aim": "display faces",
+      "track": "ceiling mounted; omitted from cutaway for visibility"
+    }
+  ],
+  "zones": [
+    {
+      "id": "01",
+      "name": "Reception, olfactory discovery and circulation",
+      "polygons_mm": [
+        [
+          [
+            8800.0,
+            4999.0
+          ],
+          [
+            6450.0,
+            4999.0
+          ],
+          [
+            6450.0,
+            2500.0
+          ],
+          [
+            3800.0,
+            2500.0
+          ],
+          [
+            3800.0,
+            5400.0
+          ],
+          [
+            250.0,
+            5400.0
+          ],
+          [
+            250.0,
+            2100.0
+          ],
+          [
+            0.0,
+            2100.0
+          ],
+          [
+            0.0,
+            5500.0
+          ],
+          [
+            1699.0,
+            5500.0
+          ],
+          [
+            1699.0,
+            8600.0
+          ],
+          [
+            8800.0,
+            8600.0
+          ],
+          [
+            8800.0,
+            4999.0
+          ]
+        ]
+      ],
+      "area_m2": 32.34545,
+      "area_basis": "coordinate footprint, includes furniture and partitions; excludes service core; no net-use claim"
+    },
+    {
+      "id": "02",
+      "name": "Main crystal and perfume gallery",
+      "polygons_mm": [
+        [
+          [
+            8800.0,
+            8600.0
+          ],
+          [
+            8800.0,
+            14200.0
+          ],
+          [
+            1699.0,
+            14200.0
+          ],
+          [
+            1699.0,
+            8600.0
+          ],
+          [
+            8800.0,
+            8600.0
+          ]
+        ]
+      ],
+      "area_m2": 39.7656,
+      "area_basis": "coordinate footprint, includes furniture and partitions; excludes service core; no net-use claim"
+    },
+    {
+      "id": "03",
+      "name": "VIP lounge and hospitality salon",
+      "polygons_mm": [
+        [
+          [
+            3800.0,
+            2100.0
+          ],
+          [
+            3800.0,
+            5400.0
+          ],
+          [
+            250.0,
+            5400.0
+          ],
+          [
+            250.0,
+            2100.0
+          ],
+          [
+            3800.0,
+            2100.0
+          ]
+        ]
+      ],
+      "area_m2": 11.715,
+      "area_basis": "coordinate footprint, includes furniture and partitions; excludes service core; no net-use claim"
+    },
+    {
+      "id": "04",
+      "name": "Private management office",
+      "polygons_mm": [
+        [
+          [
+            6450.0,
+            0.0
+          ],
+          [
+            6450.0,
+            2500.0
+          ],
+          [
+            3800.0,
+            2500.0
+          ],
+          [
+            3800.0,
+            0.0
+          ],
+          [
+            6450.0,
+            0.0
+          ]
+        ]
+      ],
+      "area_m2": 6.625,
+      "area_basis": "coordinate footprint, includes furniture and partitions; excludes service core; no net-use claim"
+    },
+    {
+      "id": "05",
+      "name": "Hidden stock and packaging store",
+      "polygons_mm": [
+        [
+          [
+            3800.0,
+            0.0
+          ],
+          [
+            3800.0,
+            2100.0
+          ],
+          [
+            0.0,
+            2100.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            3800.0,
+            0.0
+          ]
+        ]
+      ],
+      "area_m2": 7.98,
+      "area_basis": "coordinate footprint, includes furniture and partitions; excludes service core; no net-use claim"
+    }
+  ],
+  "coordination": [
+    {
+      "id": "C01",
+      "topic": "area",
+      "detail": "Boundary 113.21235 m2; less stated core 14.78130 m2 = 98.43105 m2, not 99.27. No coordinate scaling or fabricated balancing area."
+    },
+    {
+      "id": "C02",
+      "topic": "VIP",
+      "detail": "Requested sofa intersects COL-1; two armchairs overlap the table/credenza. Requested VIP bounding area is 11.715 m2, not 16.8."
+    },
+    {
+      "id": "C03",
+      "topic": "vitrines",
+      "detail": "Two 1150 mm modules exceed the 2200 mm northeast run by 100 mm. 1100 mm modules are shown as a dimensional fit candidate."
+    },
+    {
+      "id": "C04",
+      "topic": "core shelving",
+      "detail": "O-03 conflicts with COL-4; O-04 overlaps the north pantry door. Door locations reconstructed from the raster need site survey."
+    },
+    {
+      "id": "C05",
+      "topic": "office",
+      "detail": "Visitor chairs overlap the rear credenza footprint; requested desk leaves limited visitor clearance."
+    },
+    {
+      "id": "C06",
+      "topic": "store",
+      "detail": "Packing table leaves only 250/100 mm to south/north shelf faces; layout is not a verified usable storage aisle."
+    },
+    {
+      "id": "C07",
+      "topic": "assumptions",
+      "detail": "Wall thicknesses, heights, window sills, service door clearances and furniture heights are design assumptions; source is a raster plan, not a measured survey."
+    }
+  ],
+  "service_core": {
+    "bounds_mm": [
+      0,
+      5500,
+      1699,
+      14200
+    ],
+    "rooms": [
+      {
+        "id": "PANTRY-N",
+        "bounds_mm": [
+          0,
+          12100,
+          1699,
+          14200
+        ]
+      },
+      {
+        "id": "WC-N",
+        "bounds_mm": [
+          0,
+          10100,
+          1699,
+          12100
+        ]
+      },
+      {
+        "id": "SHAFT",
+        "bounds_mm": [
+          0,
+          9350,
+          1699,
+          10100
+        ]
+      },
+      {
+        "id": "WC-S",
+        "bounds_mm": [
+          0,
+          7450,
+          1699,
+          9350
+        ]
+      },
+      {
+        "id": "PANTRY-S",
+        "bounds_mm": [
+          0,
+          5500,
+          1699,
+          7450
+        ]
+      }
+    ]
+  },
+  "area_reconciliation": {
+    "source_label_m2": 99.27,
+    "coordinate_envelope_m2": 113.21235,
+    "service_core_m2": 14.7813,
+    "five_zone_coordinate_total_m2": 98.43105,
+    "difference_from_source_label_m2": -0.83895,
+    "source_label_status": "Original raster label; cannot be reproduced from supplied boundary/core coordinates",
+    "normalization_applied": false
+  },
+  "fixture_schedule": [
+    {
+      "id": "R-01",
+      "kind": "reception",
+      "length_x_mm": 2200,
+      "length_y_mm": 750,
+      "height_mm": 1050,
+      "zone": "01",
+      "finish": "BM-OC-85"
+    },
+    {
+      "id": "I-01",
+      "kind": "discovery",
+      "length_x_mm": 2400,
+      "length_y_mm": 1100,
+      "height_mm": 950,
+      "zone": "01",
+      "finish": "BM-OC-85"
+    },
+    {
+      "id": "T-01",
+      "kind": "stool",
+      "length_x_mm": 450,
+      "length_y_mm": 450,
+      "height_mm": 480,
+      "zone": "01",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "T-02",
+      "kind": "stool",
+      "length_x_mm": 450,
+      "length_y_mm": 450,
+      "height_mm": 480,
+      "zone": "01",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "T-03",
+      "kind": "stool",
+      "length_x_mm": 450,
+      "length_y_mm": 450,
+      "height_mm": 480,
+      "zone": "01",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "T-04",
+      "kind": "stool",
+      "length_x_mm": 450,
+      "length_y_mm": 450,
+      "height_mm": 480,
+      "zone": "01",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "V-01",
+      "kind": "vitrine",
+      "length_x_mm": 500,
+      "length_y_mm": 1150,
+      "height_mm": 2400,
+      "zone": "02",
+      "finish": "MET-01"
+    },
+    {
+      "id": "V-02",
+      "kind": "vitrine",
+      "length_x_mm": 500,
+      "length_y_mm": 1150,
+      "height_mm": 2400,
+      "zone": "02",
+      "finish": "MET-01"
+    },
+    {
+      "id": "V-03",
+      "kind": "vitrine",
+      "length_x_mm": 500,
+      "length_y_mm": 1150,
+      "height_mm": 2400,
+      "zone": "02",
+      "finish": "MET-01"
+    },
+    {
+      "id": "V-04",
+      "kind": "vitrine",
+      "length_x_mm": 500,
+      "length_y_mm": 1150,
+      "height_mm": 2400,
+      "zone": "02",
+      "finish": "MET-01"
+    },
+    {
+      "id": "V-05",
+      "kind": "vitrine",
+      "length_x_mm": 500,
+      "length_y_mm": 1100,
+      "height_mm": 2400,
+      "zone": "02",
+      "finish": "MET-01"
+    },
+    {
+      "id": "V-06",
+      "kind": "vitrine",
+      "length_x_mm": 500,
+      "length_y_mm": 1100,
+      "height_mm": 2400,
+      "zone": "02",
+      "finish": "MET-01"
+    },
+    {
+      "id": "P-01",
+      "kind": "pedestal",
+      "length_x_mm": 650,
+      "length_y_mm": 650,
+      "height_mm": 1400,
+      "zone": "02",
+      "finish": "MET-01"
+    },
+    {
+      "id": "P-02",
+      "kind": "pedestal",
+      "length_x_mm": 650,
+      "length_y_mm": 650,
+      "height_mm": 1400,
+      "zone": "02",
+      "finish": "MET-01"
+    },
+    {
+      "id": "P-03",
+      "kind": "pedestal",
+      "length_x_mm": 650,
+      "length_y_mm": 650,
+      "height_mm": 1400,
+      "zone": "02",
+      "finish": "MET-01"
+    },
+    {
+      "id": "O-01",
+      "kind": "open_shelf",
+      "length_x_mm": 420,
+      "length_y_mm": 1300,
+      "height_mm": 2400,
+      "zone": "02",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "O-02",
+      "kind": "open_shelf",
+      "length_x_mm": 420,
+      "length_y_mm": 1300,
+      "height_mm": 2400,
+      "zone": "02",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "O-03",
+      "kind": "open_shelf",
+      "length_x_mm": 420,
+      "length_y_mm": 1300,
+      "height_mm": 2400,
+      "zone": "02",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "O-04",
+      "kind": "open_shelf",
+      "length_x_mm": 420,
+      "length_y_mm": 1300,
+      "height_mm": 2400,
+      "zone": "02",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "VIP-RUG",
+      "kind": "rug",
+      "length_x_mm": 3350,
+      "length_y_mm": 2850,
+      "height_mm": 12,
+      "zone": "03",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "VIP-SOFA",
+      "kind": "sofa",
+      "length_x_mm": 2400,
+      "length_y_mm": 800,
+      "height_mm": 850,
+      "zone": "03",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "VIP-A1",
+      "kind": "armchair",
+      "length_x_mm": 700,
+      "length_y_mm": 700,
+      "height_mm": 780,
+      "zone": "03",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "VIP-A2",
+      "kind": "armchair",
+      "length_x_mm": 700,
+      "length_y_mm": 700,
+      "height_mm": 780,
+      "zone": "03",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "VIP-T",
+      "kind": "coffee_table",
+      "length_x_mm": 1400,
+      "length_y_mm": 700,
+      "height_mm": 390,
+      "zone": "03",
+      "finish": "BM-OC-85"
+    },
+    {
+      "id": "VIP-C",
+      "kind": "credenza",
+      "length_x_mm": 450,
+      "length_y_mm": 1700,
+      "height_mm": 800,
+      "zone": "03",
+      "finish": "BM-OC-85"
+    },
+    {
+      "id": "OF-D",
+      "kind": "desk",
+      "length_x_mm": 1600,
+      "length_y_mm": 650,
+      "height_mm": 750,
+      "zone": "04",
+      "finish": "BM-OC-85"
+    },
+    {
+      "id": "OF-C",
+      "kind": "credenza",
+      "length_x_mm": 2050,
+      "length_y_mm": 400,
+      "height_mm": 800,
+      "zone": "04",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "OF-E",
+      "kind": "task_chair",
+      "length_x_mm": 600,
+      "length_y_mm": 500,
+      "height_mm": 1000,
+      "zone": "04",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "OF-V1",
+      "kind": "chair",
+      "length_x_mm": 450,
+      "length_y_mm": 400,
+      "height_mm": 780,
+      "zone": "04",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "OF-V2",
+      "kind": "chair",
+      "length_x_mm": 450,
+      "length_y_mm": 400,
+      "height_mm": 780,
+      "zone": "04",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "S-01",
+      "kind": "rack",
+      "length_x_mm": 3500,
+      "length_y_mm": 450,
+      "height_mm": 2200,
+      "zone": "05",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "S-02",
+      "kind": "rack",
+      "length_x_mm": 450,
+      "length_y_mm": 1050,
+      "height_mm": 2200,
+      "zone": "05",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "S-03",
+      "kind": "rack",
+      "length_x_mm": 2600,
+      "length_y_mm": 450,
+      "height_mm": 2200,
+      "zone": "05",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "PKG-01",
+      "kind": "packing_table",
+      "length_x_mm": 1100,
+      "length_y_mm": 400,
+      "height_mm": 900,
+      "zone": "05",
+      "finish": "BM-OC-85"
+    },
+    {
+      "id": "PN-SINK",
+      "kind": "sink",
+      "length_x_mm": 550,
+      "length_y_mm": 600,
+      "height_mm": 900,
+      "zone": "service",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "PS-SINK",
+      "kind": "sink",
+      "length_x_mm": 550,
+      "length_y_mm": 600,
+      "height_mm": 900,
+      "zone": "service",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "WN-WC",
+      "kind": "toilet",
+      "length_x_mm": 700,
+      "length_y_mm": 650,
+      "height_mm": 450,
+      "zone": "service",
+      "finish": "BM-OC-17"
+    },
+    {
+      "id": "WS-WC",
+      "kind": "toilet",
+      "length_x_mm": 700,
+      "length_y_mm": 650,
+      "height_mm": 450,
+      "zone": "service",
+      "finish": "BM-OC-17"
+    }
+  ],
+  "design_status": "Source-coordinate reconstruction; spatial conflicts remain unresolved. No construction-readiness claim."
+}
