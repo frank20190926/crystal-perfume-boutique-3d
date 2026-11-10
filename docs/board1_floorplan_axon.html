@@ -1,0 +1,67 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>BT-02</title>
+<style>
+@font-face { font-family:"Space Grotesk"; src:url("assets/fonts/SpaceGrotesk-600.ttf"); font-weight:600; }
+@font-face { font-family:"IBM Plex Sans"; src:url("assets/fonts/IBMPlexSans-400.ttf"); font-weight:400; }
+@font-face { font-family:"IBM Plex Sans"; src:url("assets/fonts/IBMPlexSans-600.ttf"); font-weight:600; }
+@font-face { font-family:"JetBrains Mono"; src:url("assets/fonts/JetBrainsMono-400.ttf"); font-weight:400; }
+:root { --ink:#1E1D1A; --ink2:#5A564E; --rule:#C8C2B8; --tint:#EFEBE3; --paper:#FFFFFF; }
+* { box-sizing:border-box; margin:0; padding:0; }
+html,body { width:1600px; height:1200px; background:var(--paper); }
+body { font-family:"IBM Plex Sans",sans-serif; color:var(--ink); font-size:11px; line-height:1.4; }
+.sheet { position:absolute; inset:16px; border:1.5px solid var(--ink); display:grid; grid-template-rows:50px 1fr 58px; overflow:hidden; }
+.mono,td.n,.num { font-family:"JetBrains Mono",monospace; font-variant-numeric:tabular-nums; }
+.disp { font-family:"Space Grotesk",sans-serif; font-weight:600; letter-spacing:-0.02em; }
+.head { display:flex; align-items:baseline; gap:18px; padding:12px 22px 8px; border-bottom:1px solid var(--ink); }
+.head .id { font-size:28px; line-height:1; }
+.head .title { font-size:17px; line-height:1.1; }
+.head .sub { margin-left:auto; color:var(--ink2); font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; }
+.main { min-height:0; min-width:0; position:relative; }
+.lbl { display:flex; align-items:baseline; gap:10px; padding-bottom:5px; border-bottom:1px solid var(--rule); margin-bottom:8px; }
+.lbl .tag,.lbl .t { font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:11.5px; letter-spacing:.04em; text-transform:uppercase; }
+.lbl .r { margin-left:auto; color:var(--ink2); font-size:10px; }
+.frame { border:1px solid var(--ink); line-height:0; }
+.frame img { width:100%; display:block; }
+.mul { mix-blend-mode:multiply; }
+table { width:100%; border-collapse:collapse; }
+th { font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:9.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink2); text-align:left; padding:4px 6px; background:var(--tint); border-top:1px solid var(--ink); border-bottom:1px solid var(--ink); }
+th.n,td.n { text-align:right; }
+td { padding:3.5px 6px; border-bottom:1px solid var(--rule); font-size:10.5px; line-height:1.3; vertical-align:top; }
+td.tag { font-family:"JetBrains Mono",monospace; font-size:10px; white-space:nowrap; }
+td.n { font-size:10.5px; white-space:nowrap; }
+tr.tot td { border-top:1px solid var(--ink); border-bottom:1px solid var(--ink); background:var(--tint); font-weight:600; }
+.note { color:var(--ink2); font-size:10px; line-height:1.35; }
+.tb { display:grid; border-top:1px solid var(--ink); grid-template-columns:2.7fr 1.1fr 1.2fr .8fr 2.1fr .9fr; }
+.tb>div { padding:6px 12px; border-left:1px solid var(--ink); display:flex; flex-direction:column; justify-content:center; }
+.tb>div:first-child { border-left:0; }
+.tb .k { font-size:8.5px; letter-spacing:.1em; color:var(--ink2); text-transform:uppercase; }
+.tb .v { font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:11.5px; margin-top:2px; }
+.tb .sheetno { font-size:22px; line-height:1; letter-spacing:-.03em; }
+.cols { position:absolute; inset:0; display:grid; }
+.col { padding:14px 18px 12px; min-height:0; min-width:0; }
+.col+.col { border-left:1px solid var(--ink); }
+.rowb { border-top:1px solid var(--ink); }
+p+p { margin-top:5px; }
+.cols{grid-template-columns:52fr 48fr}.plan{display:flex;justify-content:center}.plan img{height:963px}
+    .axo{height:468px;display:flex;justify-content:center}.axo img{height:100%}</style></head><body><div class="sheet">
+<div class="head"><span class="id disp">BT-02</span><span class="title disp">ARCHITECTURAL FLOOR PLAN, 3D AXONOMETRIC &amp; 5-ZONE SPATIAL SCHEDULE</span>
+<span class="sub">REV.03 &middot; Contest #2801401 &middot; Units mm</span></div>
+<div class="main"><div class="cols">
+<div class="col"><div class="lbl"><span class="tag">01</span><span class="t">2D CAD floor plan, 5 zones, fixture tags, doors, dimensions</span><span class="r">North up &middot; graphic scale bar</span></div>
+<div class="plan"><img class="mul" src="assets/cad_floorplan_99sqm.png" alt="floor plan"></div></div>
+<div class="col"><div class="lbl"><span class="tag">02</span><span class="t">Orthographic 3D cutaway axonometric</span><span class="r">Same coordinates as plan 01 &middot; sun alt. 35°</span></div>
+<div class="axo"><img class="mul" src="assets/cad_3d_axonometric.png" alt="axonometric"></div>
+<div class="lbl" style="margin-top:6px"><span class="tag">03</span><span class="t">Area reconciliation &amp; fixture schedule</span><span class="r">Areas: coordinate footprint, m²</span></div>
+<table><tr><th style="width:38px">Zone</th><th>Description</th><th class="n" style="width:60px">m²</th></tr><tr><td class="tag">01</td><td>RECEPTION & OLFACTORY DISCOVERY</td><td class="n">32.35</td></tr><tr><td class="tag">02</td><td>MAIN CRYSTAL & PERFUME GALLERY</td><td class="n">39.77</td></tr><tr><td class="tag">03</td><td>VIP LOUNGE & HOSPITALITY SALON</td><td class="n">11.72</td></tr><tr><td class="tag">04</td><td>PRIVATE MANAGEMENT OFFICE</td><td class="n">6.63</td></tr><tr><td class="tag">05</td><td>HIDDEN STOCK & PACKAGING STORE</td><td class="n">7.98</td></tr><tr><td class="tag">EX</td><td>EXISTING SERVICE CORE (PANTRY / WC / SHAFT)</td><td class="n">14.78</td></tr><tr class="tot"><td class="tag">Σ</td><td>COORDINATE ENVELOPE (5 ZONES + CORE)</td><td class="n">113.21</td></tr>
+<tr><td class="tag">LBL</td><td>SOURCE RASTER LABEL (NOT NORMALISED)</td><td class="n">99.27</td></tr>
+<tr><td class="tag">Δ</td><td>5-ZONE TOTAL 98.43 vs LABEL</td><td class="n">-0.84</td></tr></table>
+<table style="margin-top:6px"><tr><th style="width:62px">Tag</th><th>Item</th><th class="n" style="width:36px">Qty</th><th class="n" style="width:176px">W × D × H mm</th><th style="width:56px">Finish</th></tr><tr><td class="tag">V-01..04</td><td>Lockable low-iron glass vitrine</td><td class="n">4</td><td class="n">1,150 × 500 × 2,400</td><td class="tag">MET-01</td></tr><tr><td class="tag">V-05..06</td><td>Lockable low-iron glass vitrine</td><td class="n">2</td><td class="n">1,100 × 500 × 2,400</td><td class="tag">MET-01</td></tr><tr><td class="tag">P-01..03</td><td>Feature crystal pedestal</td><td class="n">3</td><td class="n">650 × 650 × 1,400</td><td class="tag">MET-01</td></tr><tr><td class="tag">O-01..04</td><td>Open tactile shelving unit</td><td class="n">4</td><td class="n">1,300 × 420 × 2,400</td><td class="tag">OC-17</td></tr><tr><td class="tag">I-01</td><td>Olfactory discovery island</td><td class="n">1</td><td class="n">2,400 × 1,100 × 950</td><td class="tag">OC-85</td></tr><tr><td class="tag">R-01</td><td>Cash / wrap console</td><td class="n">1</td><td class="n">2,200 × 750 × 1,050</td><td class="tag">OC-85</td></tr><tr><td class="tag">T-01..04</td><td>Discovery stools</td><td class="n">4</td><td class="n">450 × 450 × 480</td><td class="tag">OC-17</td></tr><tr><td class="tag">VIP</td><td>Salon suite: sofa, 2 armchairs, table, credenza, rug</td><td class="n">1 set</td><td class="n">sofa 2,400 × 800 × 850</td><td class="tag">OC-17/85</td></tr><tr><td class="tag">OF</td><td>Office suite: desk, credenza, task + 2 visitor chairs</td><td class="n">1 set</td><td class="n">desk 1,600 × 650 × 750</td><td class="tag">OC-17/85</td></tr><tr><td class="tag">S-01..03</td><td>Stock racks (+ PKG-01 packing table)</td><td class="n">2</td><td class="n">3,500 / 2,600 × 450 × 2,200</td><td class="tag">OC-17</td></tr></table>
+<p class="note" style="margin-top:4px">Envelope 8,800 × 14,200 mm less core = 98.43 m² (source label 99.27 m²); CAD footprint screening: no fixture/column overlap; fit-out and site clearances remain subject to coordination.</p>
+</div></div></div>
+<div class="tb">
+<div><span class="k">Project</span><span class="v">LUXURY CRYSTAL &amp; PERFUME BOUTIQUE (99.27 SQM)</span></div>
+<div><span class="k">Contest</span><span class="v mono">#2801401</span></div>
+<div><span class="k">Scale</span><span class="v">AS SHOWN (GRAPHIC BAR)</span></div>
+<div><span class="k">Units</span><span class="v">MM</span></div>
+<div><span class="k">Software</span><span class="v">DWG / DXF + BLENDER 5.1.1 CYCLES</span></div>
+<div><span class="k">Sheet</span><span class="v sheetno disp">BT-02 <span style="font-size:11px;letter-spacing:0">/ 04 · REV.03</span></span></div>
+</div></div></body></html>

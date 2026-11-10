@@ -1,0 +1,54 @@
+{
+  "dxf_version": "AC1024",
+  "units": 4,
+  "audit_errors": 0,
+  "audit_fixes": 0,
+  "entities": {
+    "LWPOLYLINE": 345,
+    "LINE": 230,
+    "HATCH": 31,
+    "ELLIPSE": 45,
+    "ARC": 12,
+    "TEXT": 73,
+    "DIMENSION": 52
+  },
+  "layers": [
+    "0",
+    "Defpoints",
+    "A-WALL-EXIST",
+    "A-WALL-NEW",
+    "A-COLS",
+    "A-GLAZ",
+    "A-DOOR",
+    "A-FURN-VIP",
+    "A-VITRINE-SEC",
+    "A-SHELF-OPEN",
+    "A-STOR-RACK",
+    "A-LIGHT-TRACK",
+    "A-DIMS-MM",
+    "A-ANNO-TEXT",
+    "A-FURN-GEN",
+    "A-FLOOR-ZONE",
+    "A-FIXT-SERVICE",
+    "A-ELEVATION"
+  ],
+  "plan_origin_mm": [
+    0,
+    0
+  ],
+  "elevation_origins_mm": {
+    "East": [
+      15000,
+      10000
+    ],
+    "West": [
+      15000,
+      5000
+    ],
+    "South": [
+      15000,
+      0
+    ]
+  },
+  "native_dimensions": 52
+}

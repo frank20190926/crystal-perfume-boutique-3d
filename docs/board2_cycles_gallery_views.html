@@ -1,0 +1,81 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>BT-01</title>
+<style>
+@font-face { font-family:"Space Grotesk"; src:url("assets/fonts/SpaceGrotesk-600.ttf"); font-weight:600; }
+@font-face { font-family:"IBM Plex Sans"; src:url("assets/fonts/IBMPlexSans-400.ttf"); font-weight:400; }
+@font-face { font-family:"IBM Plex Sans"; src:url("assets/fonts/IBMPlexSans-600.ttf"); font-weight:600; }
+@font-face { font-family:"JetBrains Mono"; src:url("assets/fonts/JetBrainsMono-400.ttf"); font-weight:400; }
+:root { --ink:#1E1D1A; --ink2:#5A564E; --rule:#C8C2B8; --tint:#EFEBE3; --paper:#FFFFFF; }
+* { box-sizing:border-box; margin:0; padding:0; }
+html,body { width:1600px; height:1200px; background:var(--paper); }
+body { font-family:"IBM Plex Sans",sans-serif; color:var(--ink); font-size:11px; line-height:1.4; }
+.sheet { position:absolute; inset:16px; border:1.5px solid var(--ink); display:grid; grid-template-rows:50px 1fr 58px; overflow:hidden; }
+.mono,td.n,.num { font-family:"JetBrains Mono",monospace; font-variant-numeric:tabular-nums; }
+.disp { font-family:"Space Grotesk",sans-serif; font-weight:600; letter-spacing:-0.02em; }
+.head { display:flex; align-items:baseline; gap:18px; padding:12px 22px 8px; border-bottom:1px solid var(--ink); }
+.head .id { font-size:28px; line-height:1; }
+.head .title { font-size:17px; line-height:1.1; }
+.head .sub { margin-left:auto; color:var(--ink2); font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; }
+.main { min-height:0; min-width:0; position:relative; }
+.lbl { display:flex; align-items:baseline; gap:10px; padding-bottom:5px; border-bottom:1px solid var(--rule); margin-bottom:8px; }
+.lbl .tag,.lbl .t { font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:11.5px; letter-spacing:.04em; text-transform:uppercase; }
+.lbl .r { margin-left:auto; color:var(--ink2); font-size:10px; }
+.frame { border:1px solid var(--ink); line-height:0; }
+.frame img { width:100%; display:block; }
+.mul { mix-blend-mode:multiply; }
+table { width:100%; border-collapse:collapse; }
+th { font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:9.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink2); text-align:left; padding:4px 6px; background:var(--tint); border-top:1px solid var(--ink); border-bottom:1px solid var(--ink); }
+th.n,td.n { text-align:right; }
+td { padding:3.5px 6px; border-bottom:1px solid var(--rule); font-size:10.5px; line-height:1.3; vertical-align:top; }
+td.tag { font-family:"JetBrains Mono",monospace; font-size:10px; white-space:nowrap; }
+td.n { font-size:10.5px; white-space:nowrap; }
+tr.tot td { border-top:1px solid var(--ink); border-bottom:1px solid var(--ink); background:var(--tint); font-weight:600; }
+.note { color:var(--ink2); font-size:10px; line-height:1.35; }
+.tb { display:grid; border-top:1px solid var(--ink); grid-template-columns:2.7fr 1.1fr 1.2fr .8fr 2.1fr .9fr; }
+.tb>div { padding:6px 12px; border-left:1px solid var(--ink); display:flex; flex-direction:column; justify-content:center; }
+.tb>div:first-child { border-left:0; }
+.tb .k { font-size:8.5px; letter-spacing:.1em; color:var(--ink2); text-transform:uppercase; }
+.tb .v { font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:11.5px; margin-top:2px; }
+.tb .sheetno { font-size:22px; line-height:1; letter-spacing:-.03em; }
+.cols { position:absolute; inset:0; display:grid; }
+.col { padding:14px 18px 12px; min-height:0; min-width:0; }
+.col+.col { border-left:1px solid var(--ink); }
+.rowb { border-top:1px solid var(--ink); }
+p+p { margin-top:5px; }
+
+    .sheet{inset:4px;grid-template-rows:24px 1fr 24px}
+    .head{padding:2px 8px;gap:12px}.head .id{font-size:20px}.head .title{font-size:13px}.head .sub{font-size:9px}
+    .tb>div{padding:0 6px;flex-direction:row;align-items:center;gap:6px}.tb .k{font-size:6px}.tb .v{font-size:8px;margin:0}.tb .sheetno{font-size:11px}
+    .cover{padding:0 2px;height:100%;display:grid;grid-template-rows:507px 507px 108px 19px;gap:0}
+    .hero-pair{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+    .caption{height:12px;font-size:9px;line-height:11px;font-weight:600;letter-spacing:.025em;padding:1px 4px;white-space:nowrap}
+    .hero-pair img{display:block;width:100%;height:495px;object-fit:contain}
+    .proofs{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+    .proofs img{display:block;width:100%;height:495px;object-fit:contain}
+    .reference-strip{display:grid;grid-template-columns:92px repeat(4,145px) 1fr 1fr;gap:4px}.reference-strip .caption{font-size:7px}
+    .reference-strip img{display:block;width:100%;height:96px;object-fit:contain;background:#f8f7f4}
+    .callout{font-size:10px;font-weight:600;text-align:center;padding-top:2px;border-top:1px solid var(--ink)}
+    </style></head><body><div class="sheet">
+<div class="head"><span class="id disp">BT-01</span><span class="title disp">BRIGHT MATTE-PAINT INTERIORS / NATIVE CYCLES + SAME-CAMERA MESH</span>
+<span class="sub">REV.03 &middot; Contest #2801401 &middot; Units mm</span></div>
+<div class="main"><div class="cover">
+    <div class="hero-pair">
+    <div><div class="caption">VIEW 01 — MAIN DISPLAY GALLERY (NATIVE BLENDER 5.1.1 CYCLES)</div><img src="assets/blender_view1_main_gallery.jpg" alt="Native Blender main gallery"></div>
+    <div><div class="caption">VIEW 02 — VIP LOUNGE &amp; RECEPTION (NATIVE BLENDER 5.1.1 CYCLES)</div><img src="assets/blender_view2_vip_lounge.jpg" alt="Native Blender VIP lounge"></div>
+    </div>
+    <div class="proofs">
+    <div><div class="caption">VIEW 01 / EXACT SAME-CAMERA BLENDER 5.1.1 MESH + FREESTYLE</div><img src="assets/blender_view1_wireframe_samecam.jpg" alt="View 01 same-camera proof"></div>
+    <div><div class="caption">VIEW 02 / EXACT SAME-CAMERA BLENDER 5.1.1 MESH + FREESTYLE</div><img src="assets/blender_view2_wireframe_samecam.jpg" alt="View 02 same-camera proof"></div>
+    </div><div class="reference-strip">
+    <div><div class="caption">CAD / 99.27 sqm*</div><img src="assets/cad_floorplan_99sqm.png" alt="CAD plan; source label 99.27 sqm"></div><div><div class="caption">CLIENT PRODUCT REF 1 / NOT A RENDER</div><img src="assets/board_crops/ph_flacons.jpg" alt="Unaltered client-supplied product reference"></div><div><div class="caption">CLIENT PRODUCT REF 2 / NOT A RENDER</div><img src="assets/board_crops/ph_attar.jpg" alt="Unaltered client-supplied product reference"></div><div><div class="caption">CLIENT PRODUCT REF 3 / NOT A RENDER</div><img src="assets/board_crops/ph_coffret_a.jpg" alt="Unaltered client-supplied product reference"></div><div><div class="caption">CLIENT PRODUCT REF 4 / NOT A RENDER</div><img src="assets/board_crops/ph_coffret_b.jpg" alt="Unaltered client-supplied product reference"></div>
+    <div><div class="caption">VIEW 03 / NATIVE CYCLES DETAIL</div><img src="assets/blender_view3_vitrine_closeup.jpg" alt="Native glass display detail"></div>
+    <div><div class="caption">VIEW 04 / NATIVE SECTION + MESH</div><img src="assets/blender_view4_wireframe_cutaway.jpg" alt="Native cutaway proof"></div></div>
+    <div class="callout">100% NATIVE BLENDER 5.1.1 (.BLEND) + AUTOCAD (.DWG) — ZERO AI GENERATION — 100% MATTE PAINT WALLS (ZERO STONE / ZERO WOOD VENEER)</div>
+    </div></div>
+<div class="tb">
+<div><span class="k">Project</span><span class="v">LUXURY CRYSTAL &amp; PERFUME BOUTIQUE (99.27 SQM)</span></div>
+<div><span class="k">Contest</span><span class="v mono">#2801401</span></div>
+<div><span class="k">Scale</span><span class="v">AS SHOWN (GRAPHIC BAR)</span></div>
+<div><span class="k">Units</span><span class="v">MM</span></div>
+<div><span class="k">Software</span><span class="v">DWG / DXF + BLENDER 5.1.1 CYCLES</span></div>
+<div><span class="k">Sheet</span><span class="v sheetno disp">BT-01 <span style="font-size:11px;letter-spacing:0">/ 04 · REV.03</span></span></div>
+</div></div></body></html>

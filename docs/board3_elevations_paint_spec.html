@@ -1,0 +1,92 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>BT-03</title>
+<style>
+@font-face { font-family:"Space Grotesk"; src:url("assets/fonts/SpaceGrotesk-600.ttf"); font-weight:600; }
+@font-face { font-family:"IBM Plex Sans"; src:url("assets/fonts/IBMPlexSans-400.ttf"); font-weight:400; }
+@font-face { font-family:"IBM Plex Sans"; src:url("assets/fonts/IBMPlexSans-600.ttf"); font-weight:600; }
+@font-face { font-family:"JetBrains Mono"; src:url("assets/fonts/JetBrainsMono-400.ttf"); font-weight:400; }
+:root { --ink:#1E1D1A; --ink2:#5A564E; --rule:#C8C2B8; --tint:#EFEBE3; --paper:#FFFFFF; }
+* { box-sizing:border-box; margin:0; padding:0; }
+html,body { width:1600px; height:1200px; background:var(--paper); }
+body { font-family:"IBM Plex Sans",sans-serif; color:var(--ink); font-size:11px; line-height:1.4; }
+.sheet { position:absolute; inset:16px; border:1.5px solid var(--ink); display:grid; grid-template-rows:50px 1fr 58px; overflow:hidden; }
+.mono,td.n,.num { font-family:"JetBrains Mono",monospace; font-variant-numeric:tabular-nums; }
+.disp { font-family:"Space Grotesk",sans-serif; font-weight:600; letter-spacing:-0.02em; }
+.head { display:flex; align-items:baseline; gap:18px; padding:12px 22px 8px; border-bottom:1px solid var(--ink); }
+.head .id { font-size:28px; line-height:1; }
+.head .title { font-size:17px; line-height:1.1; }
+.head .sub { margin-left:auto; color:var(--ink2); font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; }
+.main { min-height:0; min-width:0; position:relative; }
+.lbl { display:flex; align-items:baseline; gap:10px; padding-bottom:5px; border-bottom:1px solid var(--rule); margin-bottom:8px; }
+.lbl .tag,.lbl .t { font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:11.5px; letter-spacing:.04em; text-transform:uppercase; }
+.lbl .r { margin-left:auto; color:var(--ink2); font-size:10px; }
+.frame { border:1px solid var(--ink); line-height:0; }
+.frame img { width:100%; display:block; }
+.mul { mix-blend-mode:multiply; }
+table { width:100%; border-collapse:collapse; }
+th { font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:9.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink2); text-align:left; padding:4px 6px; background:var(--tint); border-top:1px solid var(--ink); border-bottom:1px solid var(--ink); }
+th.n,td.n { text-align:right; }
+td { padding:3.5px 6px; border-bottom:1px solid var(--rule); font-size:10.5px; line-height:1.3; vertical-align:top; }
+td.tag { font-family:"JetBrains Mono",monospace; font-size:10px; white-space:nowrap; }
+td.n { font-size:10.5px; white-space:nowrap; }
+tr.tot td { border-top:1px solid var(--ink); border-bottom:1px solid var(--ink); background:var(--tint); font-weight:600; }
+.note { color:var(--ink2); font-size:10px; line-height:1.35; }
+.tb { display:grid; border-top:1px solid var(--ink); grid-template-columns:2.7fr 1.1fr 1.2fr .8fr 2.1fr .9fr; }
+.tb>div { padding:6px 12px; border-left:1px solid var(--ink); display:flex; flex-direction:column; justify-content:center; }
+.tb>div:first-child { border-left:0; }
+.tb .k { font-size:8.5px; letter-spacing:.1em; color:var(--ink2); text-transform:uppercase; }
+.tb .v { font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:11.5px; margin-top:2px; }
+.tb .sheetno { font-size:22px; line-height:1; letter-spacing:-.03em; }
+.cols { position:absolute; inset:0; display:grid; }
+.col { padding:14px 18px 12px; min-height:0; min-width:0; }
+.col+.col { border-left:1px solid var(--ink); }
+.rowb { border-top:1px solid var(--ink); }
+p+p { margin-top:5px; }
+.cols{bottom:auto;height:650px;grid-template-columns:1032fr 536fr}.pb{position:absolute;left:0;right:0;top:650px;bottom:0;border-top:1px solid var(--ink);padding:10px 8px 8px}</style></head><body><div class="sheet">
+<div class="head"><span class="id disp">BT-03</span><span class="title disp">INTERIOR WALL ELEVATIONS, VITRINE SECTION &amp; MATTE PAINT SPECIFICATION</span>
+<span class="sub">REV.03 &middot; Contest #2801401 &middot; Units mm</span></div>
+<div class="main"><div class="cols">
+<div class="col" style="padding-right:8px"><div class="lbl"><span class="tag">E-01..E-03 · D-01</span><span class="t">Dimensioned interior elevations and vitrine section</span><span class="r">CAD reference: ceiling +2,800 · display +2,400</span></div>
+<div style="width:978px"><img class="mul" src="assets/board_crops/elev_clean.png" style="width:978px;display:block"></div></div>
+<div class="col"><div class="lbl"><span class="tag">Key</span><span class="t">Elevation index</span></div>
+<table><tr><th style="width:56px">Ref</th><th>Sheet label</th><th>View</th></tr>
+<tr><td class="tag">E-01</td><td>A</td><td>East vitrine wall, V-01..V-06</td></tr>
+<tr><td class="tag">E-02</td><td>B</td><td>West open shelving, O-01..O-04, service core</td></tr>
+<tr><td class="tag">E-03</td><td>C</td><td>South: VIP, office acoustic glass, hidden-store jib door</td></tr>
+<tr><td class="tag">D-01</td><td>Section</td><td>Vitrine: LED, low-iron glass, lockable door, base anchorage</td></tr></table>
+<div class="lbl" style="margin-top:14px"><span class="tag">Display schedule</span><span class="r">W × D × H mm, from layout_geometry.json</span></div>
+<table><tr><th>Tag</th><th class="n">Size</th></tr><tr><td class="tag">V-01..04</td><td class="n">1,150 × 500 × 2,400</td></tr><tr><td class="tag">V-05..06</td><td class="n">1,100 × 500 × 2,400</td></tr><tr><td class="tag">P-01..03</td><td class="n">650 × 650 × 1,400</td></tr><tr><td class="tag">O-01..04</td><td class="n">1,300 × 420 × 2,400</td></tr><tr><td class="tag">I-01</td><td class="n">2,400 × 1,100 × 950</td></tr><tr><td class="tag">R-01</td><td class="n">2,200 × 750 × 1,050</td></tr></table>
+<p class="note" style="margin-top:10px">Wall relief comes only from drywall geometry and shadow-gap reveals; finish is paint. Elevation widths, heights and door positions follow the coordinate model; site survey needed for door clearances.</p></div></div>
+<div class="pb"><div class="lbl" style="margin:0 10px 8px"><span class="tag">Matte paint &amp; material specification</span><span class="t" style="font-weight:400;text-transform:none;letter-spacing:0">Paint only: no stone wall cladding, no wood veneer wall panels, per client budget brief</span><span class="r">Hex = screen approximation; confirm against physical swatch fan before ordering</span></div>
+<div style="display:grid;grid-template-columns:repeat(6,1fr)"><div style="padding:0 10px 0 10px"><div style="height:200px;background:#F3EFE6;border:1px solid #1E1D1A"></div>
+<div class="mono" style="font-size:10.5px;margin-top:6px;display:flex;justify-content:space-between"><b style="font-weight:400">BM OC-17</b><span>#F3EFE6</span></div>
+<div class="disp" style="font-size:12.5px;line-height:1.2;margin-top:3px">White Dove / matte interior paint</div>
+<div style="font-size:10.5px;margin-top:4px;border-top:1px solid #C8C2B8;padding-top:3px">Project digital colour target<br>Roughness 0.85</div>
+<div class="note" style="margin-top:3px"><b style="font-weight:600;color:#1E1D1A">Applied:</b> Walls, COL-01..04, ceiling</div></div><div style="padding:0 10px 0 10px"><div style="height:200px;background:#E6DEC8;border:1px solid #1E1D1A"></div>
+<div class="mono" style="font-size:10.5px;margin-top:6px;display:flex;justify-content:space-between"><b style="font-weight:400">BM OC-85</b><span>#E6DEC8</span></div>
+<div class="disp" style="font-size:12.5px;line-height:1.2;margin-top:3px">Pale Oak / matte interior paint</div>
+<div style="font-size:10.5px;margin-top:4px;border-top:1px solid #C8C2B8;padding-top:3px">Project digital colour target<br>Roughness 0.85</div>
+<div class="note" style="margin-top:3px"><b style="font-weight:600;color:#1E1D1A">Applied:</b> Niches and painted fixture bases</div></div><div style="padding:0 10px 0 10px"><div style="height:200px;background:#EEE6D8;border:1px solid #1E1D1A"></div>
+<div class="mono" style="font-size:10.5px;margin-top:6px;display:flex;justify-content:space-between"><b style="font-weight:400">FAB-01</b><span>#EEE6D8</span></div>
+<div class="disp" style="font-size:12.5px;line-height:1.2;margin-top:3px">Warm cream bouclé</div>
+<div style="font-size:10.5px;margin-top:4px;border-top:1px solid #C8C2B8;padding-top:3px">Procedural Blender fibre relief<br>Soft matte upholstery</div>
+<div class="note" style="margin-top:3px"><b style="font-weight:600;color:#1E1D1A">Applied:</b> Curved VIP sofa and armchairs</div></div><div style="padding:0 10px 0 10px"><div style="height:200px;background:linear-gradient(100deg,#B9A57F 0%,#D3C19E 38%,#BBA781 62%,#CDBA94 100%);border:1px solid #1E1D1A"></div>
+<div class="mono" style="font-size:10.5px;margin-top:6px;display:flex;justify-content:space-between"><b style="font-weight:400">MET-01</b><span>#C5B08B</span></div>
+<div class="disp" style="font-size:12.5px;line-height:1.2;margin-top:3px">Satin champagne metal</div>
+<div style="font-size:10.5px;margin-top:4px;border-top:1px solid #C8C2B8;padding-top:3px">Small-section metalwork<br>Satin</div>
+<div class="note" style="margin-top:3px"><b style="font-weight:600;color:#1E1D1A">Applied:</b> Vitrine frames and hardware</div></div><div style="padding:0 10px 0 10px"><div style="height:200px;background:linear-gradient(90deg,#DCE6E2 0 14%,#EAF0ED 14% 17%,#DCE6E2 17% 31%,#EAF0ED 31% 34%,#DCE6E2 34% 48%,#EAF0ED 48% 51%,#DCE6E2 51% 65%,#EAF0ED 65% 68%,#DCE6E2 68% 82%,#EAF0ED 82% 85%,#DCE6E2 85%);border:1px solid #1E1D1A"></div>
+<div class="mono" style="font-size:10.5px;margin-top:6px;display:flex;justify-content:space-between"><b style="font-weight:400">GLZ-01</b><span>CLEAR GLASS</span></div>
+<div class="disp" style="font-size:12.5px;line-height:1.2;margin-top:3px">Clear display glass</div>
+<div style="font-size:10.5px;margin-top:4px;border-top:1px solid #C8C2B8;padding-top:3px">Native transmission shader<br>Lockable display / modelled hardware</div>
+<div class="note" style="margin-top:3px"><b style="font-weight:600;color:#1E1D1A">Applied:</b> Vitrines and office glazing</div></div><div style="padding:0 10px 0 10px"><div style="height:200px;background:#EAE4DA;border:1px solid #1E1D1A"></div>
+<div class="mono" style="font-size:10.5px;margin-top:6px;display:flex;justify-content:space-between"><b style="font-weight:400">FLR-01</b><span>#EAE4DA</span></div>
+<div class="disp" style="font-size:12.5px;line-height:1.2;margin-top:3px">Warm ivory floor</div>
+<div style="font-size:10.5px;margin-top:4px;border-top:1px solid #C8C2B8;padding-top:3px">Existing finish subject to survey<br>No stone wall cladding</div>
+<div class="note" style="margin-top:3px"><b style="font-weight:600;color:#1E1D1A">Applied:</b> Continuous light neutral floor</div></div></div></div></div>
+<div class="tb">
+<div><span class="k">Project</span><span class="v">LUXURY CRYSTAL &amp; PERFUME BOUTIQUE (99.27 SQM)</span></div>
+<div><span class="k">Contest</span><span class="v mono">#2801401</span></div>
+<div><span class="k">Scale</span><span class="v">AS SHOWN (GRAPHIC BAR)</span></div>
+<div><span class="k">Units</span><span class="v">MM</span></div>
+<div><span class="k">Software</span><span class="v">DWG / DXF + BLENDER 5.1.1 CYCLES</span></div>
+<div><span class="k">Sheet</span><span class="v sheetno disp">BT-03 <span style="font-size:11px;letter-spacing:0">/ 04 · REV.03</span></span></div>
+</div></div></body></html>

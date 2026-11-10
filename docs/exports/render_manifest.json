@@ -1,0 +1,547 @@
+{
+  "revision": "REV.03",
+  "blender_version": "5.1.1",
+  "blender_build_hash": "b70da489d7f4",
+  "created_utc": "2026-11-10T11:42:54.541570+00:00",
+  "native_blend": "exports/Crystal_Perfume_Boutique_99sqm.blend",
+  "scripts": {
+    "scripts/build_blender_boutique.py": "39550e5fa8c32a3292f9212e058401aa298a4188b7e866f5961947e55e0cf912",
+    "scripts/render_blender.py": "d0d098a5a0492b9a53383ffe801436018a200bf55970d481cbc0feaa4c74e17d"
+  },
+  "paint_audit": {
+    "painted_architecture": [
+      {
+        "name": "WAL_South_SWWing",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "WAL_East_SWWing_X6450",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "WAL_South_MainHall_Y5000",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "WAL_East_MainHall_X8800",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "WAL_North_Y14200",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "WAL_West_X0000",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "COL-01",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "COL-02",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "COL-03",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "COL-04",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "WAL_Core_South_Y5500",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "WAL_Core_Internal_1",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "WAL_Core_Internal_2",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "WAL_Core_Internal_3",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "WAL_Core_Internal_4",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "WAL_West_Lining_Shelving_X2150",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "WAL_Store_Partition_Y2100",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "WAL_Store_Office_X3800",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "CLG_Slab_WhiteDove",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "CLG_Cove_Plate_N",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "CLG_Cove_Lip_N",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "CLG_Cove_Plate_E",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "CLG_Cove_Lip_E",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "CLG_Cove_Plate_W",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "CLG_Cove_Lip_W",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "CLG_Cove_Plate_S",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      },
+      {
+        "name": "CLG_Cove_Lip_S",
+        "materials": [
+          "PAINT_BM_OC17_White_Dove_F3EFE6"
+        ]
+      }
+    ],
+    "roughness": 0.85,
+    "image_texture_nodes": 0,
+    "wood_scope": "Product gift boxes and office furniture only; no wood wall finish"
+  },
+  "renders": [
+    {
+      "file": "assets/blender_view1_main_gallery.jpg",
+      "sha256": "b899832f8e2a150acd1a3d0eb027bbb3e7dcb900a7673c662282dd1a7d541bc0",
+      "view": 1,
+      "pass_type": "CYCLES",
+      "camera": {
+        "name": "CAM_1_Main_Gallery_North",
+        "matrix_world": [
+          [
+            0.9550641179084778,
+            -6.373657157610069e-09,
+            -0.29639923572540283,
+            3.549999952316284
+          ],
+          [
+            -0.29639923572540283,
+            -1.686080821627911e-07,
+            -0.9550641179084778,
+            5.349999904632568
+          ],
+          [
+            -4.388805407984364e-08,
+            1.0,
+            -1.6292068494294654e-07,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "lens_mm": 16.0,
+        "sensor_width_mm": 36.0,
+        "shift_x": 0.0,
+        "shift_y": 0.03500000014901161,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 200.0,
+        "resolution": [
+          1920,
+          1200,
+          100
+        ],
+        "pixel_aspect": [
+          1.0,
+          1.0
+        ]
+      },
+      "geometry": {
+        "sha256": "4d323aacb21cac32cd42da93f6bfe7da60f099a69bfe06ac3c21cb0de9944b33",
+        "mesh_objects": 934,
+        "evaluated_vertices": 47124,
+        "evaluated_faces": 60172
+      },
+      "samples": 256,
+      "exposure": -2.0999999046325684
+    },
+    {
+      "file": "assets/blender_view1_wireframe_samecam.jpg",
+      "sha256": "46a60392413c7c8e2cf3ffc13dec9984cfe027df92c45c700aeed44fecde8c60",
+      "view": 1,
+      "pass_type": "CLAY_FREESTYLE",
+      "camera": {
+        "name": "CAM_1_Main_Gallery_North",
+        "matrix_world": [
+          [
+            0.9550641179084778,
+            -6.373657157610069e-09,
+            -0.29639923572540283,
+            3.549999952316284
+          ],
+          [
+            -0.29639923572540283,
+            -1.686080821627911e-07,
+            -0.9550641179084778,
+            5.349999904632568
+          ],
+          [
+            -4.388805407984364e-08,
+            1.0,
+            -1.6292068494294654e-07,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "lens_mm": 16.0,
+        "sensor_width_mm": 36.0,
+        "shift_x": 0.0,
+        "shift_y": 0.03500000014901161,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 200.0,
+        "resolution": [
+          1920,
+          1200,
+          100
+        ],
+        "pixel_aspect": [
+          1.0,
+          1.0
+        ]
+      },
+      "geometry": {
+        "sha256": "4d323aacb21cac32cd42da93f6bfe7da60f099a69bfe06ac3c21cb0de9944b33",
+        "mesh_objects": 934,
+        "evaluated_vertices": 47124,
+        "evaluated_faces": 60172
+      },
+      "samples": 256,
+      "exposure": -2.0999999046325684
+    },
+    {
+      "file": "assets/blender_view2_vip_lounge.jpg",
+      "sha256": "90d7fdac62648ce14fe1800ab56cf2fa590dd2b0a2a4a1b344f015180faa7e6c",
+      "view": 2,
+      "pass_type": "CYCLES",
+      "camera": {
+        "name": "CAM_2_VIP_Lounge_SouthWest",
+        "matrix_world": [
+          [
+            -0.811880350112915,
+            -5.0953492092276065e-08,
+            0.5838238596916199,
+            6.099999904632568
+          ],
+          [
+            0.5838238596916199,
+            -5.635071076426357e-08,
+            0.811880350112915,
+            7.650000095367432
+          ],
+          [
+            -8.469248413689456e-09,
+            1.0,
+            7.549790126404332e-08,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "lens_mm": 17.0,
+        "sensor_width_mm": 36.0,
+        "shift_x": 0.0,
+        "shift_y": -0.03999999910593033,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 200.0,
+        "resolution": [
+          1920,
+          1200,
+          100
+        ],
+        "pixel_aspect": [
+          1.0,
+          1.0
+        ]
+      },
+      "geometry": {
+        "sha256": "4d323aacb21cac32cd42da93f6bfe7da60f099a69bfe06ac3c21cb0de9944b33",
+        "mesh_objects": 934,
+        "evaluated_vertices": 47124,
+        "evaluated_faces": 60172
+      },
+      "samples": 256,
+      "exposure": -2.0999999046325684
+    },
+    {
+      "file": "assets/blender_view2_wireframe_samecam.jpg",
+      "sha256": "d00ff739ce3472093ca34be9bd5298b7cca3df744036e52ddcc968c1bba3c8d9",
+      "view": 2,
+      "pass_type": "CLAY_FREESTYLE",
+      "camera": {
+        "name": "CAM_2_VIP_Lounge_SouthWest",
+        "matrix_world": [
+          [
+            -0.811880350112915,
+            -5.0953492092276065e-08,
+            0.5838238596916199,
+            6.099999904632568
+          ],
+          [
+            0.5838238596916199,
+            -5.635071076426357e-08,
+            0.811880350112915,
+            7.650000095367432
+          ],
+          [
+            -8.469248413689456e-09,
+            1.0,
+            7.549790126404332e-08,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "lens_mm": 17.0,
+        "sensor_width_mm": 36.0,
+        "shift_x": 0.0,
+        "shift_y": -0.03999999910593033,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 200.0,
+        "resolution": [
+          1920,
+          1200,
+          100
+        ],
+        "pixel_aspect": [
+          1.0,
+          1.0
+        ]
+      },
+      "geometry": {
+        "sha256": "4d323aacb21cac32cd42da93f6bfe7da60f099a69bfe06ac3c21cb0de9944b33",
+        "mesh_objects": 934,
+        "evaluated_vertices": 47124,
+        "evaluated_faces": 60172
+      },
+      "samples": 256,
+      "exposure": -2.0999999046325684
+    },
+    {
+      "file": "assets/blender_view3_vitrine_closeup.jpg",
+      "sha256": "168563f7ed6daa9711ddb88ae9eeb743faf50e038f05e32d51938d063c410a1d",
+      "view": 3,
+      "pass_type": "CYCLES",
+      "camera": {
+        "name": "CAM_3_Vitrine_Closeup",
+        "matrix_world": [
+          [
+            0.5357656478881836,
+            4.1989682841858667e-08,
+            -0.844366729259491,
+            6.550000190734863
+          ],
+          [
+            -0.844366729259491,
+            7.474015717434668e-08,
+            -0.5357656478881836,
+            8.149999618530273
+          ],
+          [
+            4.061147151901423e-08,
+            1.0,
+            7.549790126404332e-08,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "lens_mm": 35.0,
+        "sensor_width_mm": 36.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 200.0,
+        "resolution": [
+          1920,
+          1200,
+          100
+        ],
+        "pixel_aspect": [
+          1.0,
+          1.0
+        ]
+      },
+      "geometry": {
+        "sha256": "4d323aacb21cac32cd42da93f6bfe7da60f099a69bfe06ac3c21cb0de9944b33",
+        "mesh_objects": 934,
+        "evaluated_vertices": 47124,
+        "evaluated_faces": 60172
+      },
+      "samples": 256,
+      "exposure": -1.899999976158142
+    },
+    {
+      "file": "assets/blender_view4_wireframe_cutaway.jpg",
+      "sha256": "abda0ed2c6b9c5c9c508cf29492f0909f88de9937c83205395b1088c79edb652",
+      "view": 4,
+      "pass_type": "CLAY_FREESTYLE",
+      "camera": {
+        "name": "CAM_4_Cutaway_TopSE",
+        "matrix_world": [
+          [
+            0.8376106023788452,
+            -0.496721088886261,
+            0.22732490301132202,
+            10.399999618530273
+          ],
+          [
+            0.5462677478790283,
+            0.7616390585899353,
+            -0.34856492280960083,
+            -2.5999999046325684
+          ],
+          [
+            2.7295989468711923e-08,
+            0.41614195704460144,
+            0.9092996716499329,
+            24.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "lens_mm": 36.0,
+        "sensor_width_mm": 36.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 200.0,
+        "resolution": [
+          1920,
+          1200,
+          100
+        ],
+        "pixel_aspect": [
+          1.0,
+          1.0
+        ]
+      },
+      "geometry": {
+        "sha256": "f159a11c64d01b5eb83bf03e56b0d79a515069d2b432bc9574687d96db9ec01f",
+        "mesh_objects": 934,
+        "evaluated_vertices": 46952,
+        "evaluated_faces": 60040
+      },
+      "samples": 256,
+      "exposure": -0.4000000059604645
+    }
+  ],
+  "camera_pairs": [
+    {
+      "view": 1,
+      "camera_equal": true,
+      "evaluated_mesh_equal": true,
+      "visibility_equal": true,
+      "geometry_sha256": "4d323aacb21cac32cd42da93f6bfe7da60f099a69bfe06ac3c21cb0de9944b33"
+    },
+    {
+      "view": 2,
+      "camera_equal": true,
+      "evaluated_mesh_equal": true,
+      "visibility_equal": true,
+      "geometry_sha256": "4d323aacb21cac32cd42da93f6bfe7da60f099a69bfe06ac3c21cb0de9944b33"
+    }
+  ],
+  "native_blend_sha256": "58a69f7526d2f00b165530fd75ed634816335887a17cfb5aa2d1de16ed938c88"
+}
